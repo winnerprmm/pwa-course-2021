@@ -77,6 +77,15 @@
   align-items: center;
   display: flex;
 }
+.App-textbox-icon{
+  height: 5%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  font-size:30px;
+  padding: 5px;
+
+}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}

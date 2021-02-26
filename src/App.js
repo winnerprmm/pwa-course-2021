@@ -32,6 +32,11 @@ function App() {
           })
         }
       </div>
+      <div className="App-textbox-icon" ><i class="fas fa-microphone-alt"></i> 
+      <i class="fas fa-file-upload "></i>
+      <i class="fas fa-plus "></i>
+      <i class="fas fa-images "></i> 
+      <i class="fas fa-camera"></i> </div>
       <div className="App-textbox">
         <input type="text" className="App-textbox-input" 
         value={text} onChange={onTextChange} onKeyPress={keyPress}/>
